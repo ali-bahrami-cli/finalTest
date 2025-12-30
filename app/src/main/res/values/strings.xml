@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سیستم حضور و غیاب</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">سیستم حضور و غیاب دانشگاهی</string>
+    <string name="manage_classes">مدیریت کلاس‌ها</string>
+    <string name="manage_students">مدیریت دانشجویان</string>
+    
+    <!-- Class Management -->
+    <string name="class_list_title">لیست کلاس‌ها</string>
+    <string name="add_class">افزودن کلاس جدید</string>
+    <string name="edit_class">ویرایش کلاس</string>
+    <string name="delete_class">حذف کلاس</string>
+    <string name="course_name">نام درس</string>
+    <string name="instructor_name">نام استاد</string>
+    <string name="class_day">روز برگزاری</string>
+    <string name="class_time">ساعت برگزاری</string>
+    <string name="save_class">ذخیره کلاس</string>
+    <string name="cancel">انصراف</string>
+    
+    <!-- Student Management -->
+    <string name="student_list_title">لیست دانشجویان</string>
+    <string name="add_student">افزودن دانشجوی جدید</string>
+    <string name="edit_student">ویرایش دانشجو</string>
+    <string name="delete_student">حذف دانشجو</string>
+    <string name="student_name">نام دانشجو</string>
+    <string name="student_number">شماره دانشجویی</string>
+    <string name="save_student">ذخیره دانشجو</string>
+    
+    <!-- Attendance -->
+    <string name="take_attendance">ثبت حضور و غیاب</string>
+    <string name="attendance_report">گزارش حضور و غیاب</string>
+    <string name="attendance_date">تاریخ جلسه</string>
+    <string name="present">حاضر</string>
+    <string name="absent">غایب</string>
+    <string name="save_attendance">ذخیره حضور و غیاب</string>
+    <string name="no_students">دانشجویی یافت نشد</string>
+    <string name="no_classes">کلاسی یافت نشد</string>
+    
+    <!-- Report -->
+    <string name="report_title">گزارش حضور و غیاب</string>
+    <string name="total_sessions">جلسات برگزار شده</string>
+    <string name="present_sessions">جلسات حاضر</string>
+    <string name="absent_sessions">جلسات غایب</string>
+    <string name="attendance_percentage">درصد حضور</string>
+    
+    <!-- General -->
+    <string name="confirm_delete">آیا از حذف مطمئن هستید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="success">عملیات موفق</string>
+    <string name="error">خطا</string>
+    <string name="fill_all_fields">لطفاً تمام فیلدها را پر کنید</string>
+    <string name="please_wait">لطفاً صبر کنید…</string>
+    
+    <!-- Days of Week -->
+    <string name="saturday">شنبه</string>
+    <string name="sunday">یکشنبه</string>
+    <string name="monday">دوشنبه</string>
+    <string name="tuesday">سه‌شنبه</string>
+    <string name="wednesday">چهارشنبه</string>
+    <string name="thursday">پنجشنبه</string>
+    <string name="friday">جمعه</string>
+</resources>
