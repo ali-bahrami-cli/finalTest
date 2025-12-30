@@ -20,7 +20,7 @@
             android:layout_height="40dp"
             android:contentDescription="وضعیت حضور"
             android:src="@android:drawable/presence_online"
-            android:tint="@color/present_green" />
+            android:backgroundTint="@color/black" />
 
         <!-- Student Info -->
         <LinearLayout

@@ -1,0 +1,62 @@
+[main (root-commit) 023a920] Initial commit: University Attendance System with Java and Room Database
+ Committer: root <root@172.16.0.134>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 48 files changed, 4639 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 app/build.gradle
+ create mode 100644 app/proguard-rules.pro
+ create mode 100644 app/src/main/AndroidManifest.xml
+ create mode 100644 app/src/main/java/com/example/attendancesystem/AttendanceReportActivity.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/ClassListActivity.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/MainActivity.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/StudentListActivity.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/TakeAttendanceActivity.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/adapter/AttendanceReportAdapter.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/adapter/ClassAdapter.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/adapter/StudentAdapter.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/adapter/TakeAttendanceAdapter.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/dao/AttendanceDao.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/dao/ClassCourseDao.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/dao/StudentDao.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/database/AppDatabase.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/entity/Attendance.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/entity/ClassCourse.java
+ create mode 100644 app/src/main/java/com/example/attendancesystem/entity/Student.java
+ create mode 100644 app/src/main/res/layout/activity_attendance_report.xml
+ create mode 100644 app/src/main/res/layout/activity_class_list.xml
+ create mode 100644 app/src/main/res/layout/activity_main.xml
+ create mode 100644 app/src/main/res/layout/activity_student_list.xml
+ create mode 100644 app/src/main/res/layout/activity_take_attendance.xml
+ create mode 100644 app/src/main/res/layout/dialog_add_class.xml
+ create mode 100644 app/src/main/res/layout/dialog_add_student.xml
+ create mode 100644 app/src/main/res/layout/item_attendance.xml
+ create mode 100644 app/src/main/res/layout/item_attendance_report.xml
+ create mode 100644 app/src/main/res/layout/item_class.xml
+ create mode 100644 app/src/main/res/layout/item_student.xml
+ create mode 100644 app/src/main/res/values/arrays.xml
+ create mode 100644 app/src/main/res/values/colors.xml
+ create mode 100644 app/src/main/res/values/strings.xml
+ create mode 100644 app/src/main/res/values/themes.xml
+ create mode 100644 build.gradle
+ create mode 100644 gradle.properties
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 outputs/workspace_output_1767101652_4785.txt
+ create mode 100644 outputs/workspace_output_1767101655_1392.txt
+ create mode 100644 outputs/workspace_output_1767101658_1912.txt
+ create mode 100644 outputs/workspace_output_1767101666_4188.txt
+ create mode 100644 outputs/workspace_output_1767101669_3646.txt
+ create mode 100644 settings.gradle
+ create mode 100644 todo.md

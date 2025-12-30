@@ -8,6 +8,8 @@ import androidx.room.Query;
 import androidx.room.Update;
 
 import com.example.attendancesystem.entity.Attendance;
+import com.example.attendancesystem.model.AttendanceSummary;
+
 
 import java.util.List;
 
@@ -104,9 +106,8 @@ public interface AttendanceDao {
      * @param classId The class ID
      * @return Array where index 0 = present count, index 1 = absent count
      */
-    @Query("SELECT isPresent, COUNT(*) FROM attendance WHERE studentId = :studentId AND classId = :classId GROUP BY isPresent")
-    List<Object[]> getAttendanceSummary(int studentId, int classId);
-    
+    @Query("SELECT isPresent, COUNT(*) as count FROM attendance WHERE studentId = :studentId AND classId = :classId GROUP BY isPresent")
+    List<AttendanceSummary> getAttendanceSummary(int studentId, int classId);
     /**
      * Count present sessions for a student in a class
      * @param studentId The student ID

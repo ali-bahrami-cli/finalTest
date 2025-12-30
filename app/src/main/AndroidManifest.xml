@@ -4,12 +4,10 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AttendanceSystem">
-        
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -19,26 +17,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
         <activity
             android:name=".ClassListActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
-            
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AttendanceSystem.NoActionBar" />
+
         <activity
             android:name=".StudentListActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
-            
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AttendanceSystem.NoActionBar" />
+
         <activity
             android:name=".TakeAttendanceActivity"
             android:exported="false"
-            android:parentActivityName=".ClassListActivity" />
-            
+            android:parentActivityName=".ClassListActivity"
+            android:theme="@style/Theme.AttendanceSystem.NoActionBar" />
+
         <activity
             android:name=".AttendanceReportActivity"
             android:exported="false"
-            android:parentActivityName=".ClassListActivity" />
+            android:parentActivityName=".ClassListActivity"
+            android:theme="@style/Theme.AttendanceSystem.NoActionBar" />
     </application>
 
 </manifest>

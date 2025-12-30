@@ -32,4 +32,14 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorAccent">@color/accent</item>
     </style>
+    <!-- تم اصلی پروژه -->
+
+
+    <!-- تم بدون ActionBar برای اکتیویتی‌هایی که Toolbar دارند -->
+    <style name="Theme.AttendanceSystem.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- می‌توانید رنگ‌ها را اینجا هم مشخص کنید -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
 </resources>
